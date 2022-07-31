@@ -15,7 +15,7 @@ namespace TelegramBotweather
     {
         public async Task<WeatherMain> GetIWeatherAsync(string weather)
         {
-            string line = "";
+            string line = "S";
            
             using (HttpClient client = new HttpClient())
             {
